@@ -25,7 +25,7 @@
  * @author       Manuela v.d.Decken <manuela@isteam.de>
  * @license      http://www.gnu.org/licenses/gpl.html   GPL License
  * @version      3.0.1
- * @lastmodified $Date: $
+ * @lastmodified $Date: 2017-03-03 23:14:28 +0100 (Fr, 03. Mrz 2017) $
  * @since        File available since 2015-12-17
  * @deprecated   This interface is deprecated since 2015-12-17
  * @description  xyz

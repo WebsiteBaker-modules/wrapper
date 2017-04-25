@@ -1,6 +1,6 @@
 <?php
 
-// $Id: DE.php 915 2009-01-21 19:27:01Z Ruebenwurzel $
+// $Id: DE.php 67 2017-03-03 22:14:28Z manu $
 
 /*
 
@@ -31,6 +31,6 @@ $module_description = 'Dieses Modul erlaubt das Einbinden fremder Inhalte auf Ih
 
 // Ueberschriften und Textausgaben
 $MOD_WRAPPER['NOTICE'] = 'Ihr Browser unterstützt keine Inline Frames.<br />Bitte klicken Sie auf nachfolgenden Link, um den Seiteninhalt der externen Seite zu betrachten ...<br />';
-
+$MOD_WRAPPER['MISSING__PROTOCOLL'] = 'Fehlendes Netzwerk Protokoll http:// oder https://. Add the local URL ';
 // end of file
 

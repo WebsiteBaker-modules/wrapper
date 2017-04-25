@@ -25,7 +25,7 @@
  * @author       Manuela v.d.Decken <manuela@isteam.de>
  * @license      http://www.gnu.org/licenses/gpl.html   GPL License
  * @version      3.0.1
- * @lastmodified $Date: $
+ * @lastmodified $Date: 2017-03-03 23:14:28 +0100 (Fr, 03. Mrz 2017) $
  * @since        File available since 17.12.2015
  * @description  xyz
  */
@@ -59,9 +59,8 @@ if (!defined('WB_PATH')) { throw new Exception('Cannot access the addon \"'.base
     // complete array with replacements
     $aInstance['WB_URL']      = WB_URL;
     $aInstance['THEME_URL']   = $sAddonThemeUrl;
-    $aInstance['THEME_PATH']  = $sAddonThemePath;
-    $aInstance['SAVE_URL']    = ADMIN_URL.'/pages/save.php';
 //    $aInstance['CANCEL_URL']  = ADMIN_URL.'/pages/modify.php?page_id='.$page_id.'#wb_'.$section_id;
+    $aInstance['SAVE_URL']    = ADMIN_URL.'/pages/save.php';
     $aInstance['CANCEL_URL']  = ADMIN_URL.'/pages/index.php';
     $aInstance['TEXT_URL']    = $TEXT['URL'];
     $aInstance['TEXT_HEIGHT'] = $TEXT['HEIGHT'];

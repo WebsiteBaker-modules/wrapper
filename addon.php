@@ -23,7 +23,7 @@
  * @author       Manuela v.d.Decken <manuela@isteam.de>
  * @license      http://www.gnu.org/licenses/gpl.html   GPL License
  * @version      3.0.1
- * @lastmodified $Date: $
+ * @lastmodified $Date: 2017-03-03 23:14:28 +0100 (Fr, 03. Mrz 2017) $
  * @since        File available since 17.12.2015
  * @description  xyz
  */
@@ -34,6 +34,9 @@ if (!defined('WB_PATH')) { throw new Exception('Cannot access the addon \"'.base
 
     // set the name of the addon
     $sAddonName = basename(__DIR__);
+    if (class_exists('Translate')) {
+        Translate::getInstance ()->enableAddon ('modules\\'.$sAddonName);
+    }
     include(dirname(__DIR__).'/SimpleCommandDispatcher.inc');
 
 // end of file

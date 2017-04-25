@@ -25,7 +25,7 @@
  * @author       Manuela v.d.Decken <manuela@isteam.de>
  * @license      http://www.gnu.org/licenses/gpl.html   GPL License
  * @version      3.0.1
- * @lastmodified $Date: $
+ * @lastmodified $Date: 2017-03-03 23:14:28 +0100 (Fr, 03. Mrz 2017) $
  * @since        File available since 17.12.2015
  * @description  xyz
  */
@@ -34,10 +34,10 @@
 if (!defined('WB_PATH')) { throw new Exception('Cannot access the addon \"'.basename(__DIR__).'\" directly'); }
 /* -------------------------------------------------------- */
     $module_directory   = 'wrapper';
-    $module_name        = 'Wrapper v3.0.3';
+    $module_name        = 'Wrapper v3.0.6';
     $module_function    = 'page';
-    $module_version     = '3.0.3';
-    $module_platform    = '2.8.3-SP6';
+    $module_version     = '3.0.6';
+    $module_platform    = '2.10.0';
     $module_author      = 'Manuela v.d.Decken <manuela@isteam.de>';
     $module_license     = 'GNU General Public License';
     $module_description = 'This module allows you to show third party sites inside an inline frame';

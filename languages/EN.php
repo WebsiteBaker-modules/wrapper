@@ -1,6 +1,6 @@
 <?php
 
-// $Id: EN.php 915 2009-01-21 19:27:01Z Ruebenwurzel $
+// $Id: EN.php 67 2017-03-03 22:14:28Z manu $
 
 /*
 
@@ -27,6 +27,7 @@
 */
 
 // Headings and text outputs
-$MOD_WRAPPER['NOTICE']         =    'Your browser does not support inline frames.<br />Click on the link below to visit the website that was meant to be shown here...<br />';
+$MOD_WRAPPER['NOTICE'] = 'Your browser does not support inline frames.<br />Click on the link below to visit the website that was meant to be shown here...<br />';
+$MOD_WRAPPER['MISSING_PROTOCOLL'] = 'If you forgot Network Protocol http:// or https://. i add the local URL ';
 
 // end of file
